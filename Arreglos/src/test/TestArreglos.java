@@ -38,5 +38,12 @@ public class TestArreglos {
         }
         
         
+        /*
+        Definicion de sintaxis
+        */
+        String frutas[] = {"Naranja","Platano","Uva"};
+        for (int i = 0; i < frutas.length; i++) {
+            System.out.println("frutas = " + frutas[i]);
+        }
     }
 }
