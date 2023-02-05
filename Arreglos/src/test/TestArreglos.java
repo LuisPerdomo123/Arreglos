@@ -27,5 +27,16 @@ public class TestArreglos {
         edades[2] = 12;
         System.out.println("edades[0] = " + edades[0]);
         
+        /*
+        Acceder a elementos fuera del arreglo
+        */
+        //edades[3] = 5;//Arroja un errror dado que esta fuera del arreglo.
+        
+        for(int i = 0;i < edades.length;i++){
+        
+            System.out.println("edades elemento " + i+" : "+edades[i]);
+        }
+        
+        
     }
 }
