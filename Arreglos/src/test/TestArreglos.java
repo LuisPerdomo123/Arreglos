@@ -18,5 +18,14 @@ public class TestArreglos {
         */
         System.out.println("edades = " + edades);
         
+        /*
+        Ahora se realizara modificaciones al arreglo
+        */
+        
+        edades[0] = 10;
+        edades[1] = 11;
+        edades[2] = 12;
+        System.out.println("edades[0] = " + edades[0]);
+        
     }
 }
